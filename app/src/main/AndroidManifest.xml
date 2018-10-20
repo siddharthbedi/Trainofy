@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddharthadmin.jsonproject">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".FirstInterface"
+            android:theme="@style/AppTheme.NoActionBar">
+            
+
+        </activity>
+
+
+        <activity
+        android:name=".MainActivity"
+            android:label="Route Details">
+
+        </activity>
+
+        <activity
+            android:name=".RouteMiddle"
+            android:label="Route Details">
+
+        </activity>
+
+        <activity
+            android:name=".Main2Activity"
+            android:label="PNR Details">
+
+        </activity>
+
+
+        <activity
+            android:name=".Main3Activity"
+            android:label="Trains Between Stations">
+
+        </activity>
+
+
+
+        <activity
+            android:name=".PNRMiddle"
+            android:label="PNR Details">
+
+        </activity>
+
+
+        <activity
+            android:name=".TBSMiddle"
+            android:label="Trains Between Stations">
+
+        </activity>
+
+
+
+        <activity
+            android:name=".StatusMiddle"
+            android:label="Train Status">
+
+        </activity>
+
+        <activity
+            android:name=".Main4Activity"
+            android:label="Train Status">
+
+        </activity>
+
+
+        <activity
+            android:name=".FareMiddle"
+            android:label="Fare Details">
+
+        </activity>
+
+        <activity
+            android:name=".Main5Activity"
+            android:label="Fare Details">
+
+        </activity>
+
+        <activity
+            android:name=".SeatMiddle"
+            android:label="Seat Availability">
+
+        </activity>
+
+        <activity
+            android:name=".Main6Activity"
+            android:label="Seat Availability">
+
+        </activity>
+
+        <activity
+            android:name=".Secondact"
+            android:label="Trainofy">
+
+        </activity>
+
+        <activity
+            android:name=".FirstFragment"
+            android:label="Trainofy">
+
+        </activity>
+
+
+
+    </application>
+
+    </manifest>

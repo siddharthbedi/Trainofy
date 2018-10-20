@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PNRMiddle"
+    android:layout_width="match_parent"
+    android:background="@drawable/mid"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/train_pnr"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/edit_text_state"
+        android:textColorHint="#000000"
+        android:ems="10"
+        android:hint="Enter PNR number"
+        android:paddingLeft="20dp"
+        android:inputType="text|number"
+         />
+
+    <Button
+        android:id="@+id/button_pnr"
+        android:layout_width="137dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="89dp"
+        android:layout_marginEnd="113dp"
+        android:text="Next"
+        android:background="@drawable/button_state"
+        android:textColor="#000000" />
+
+</RelativeLayout>

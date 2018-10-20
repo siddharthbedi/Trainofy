@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddharthadmin.jsonproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo1"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.siddharthadmin.jsonproject.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.FirstInterface"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.MainActivity"
+            android:label="Route Details" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.RouteMiddle"
+            android:label="Route Details" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.Main2Activity"
+            android:label="PNR Details" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.Main3Activity"
+            android:label="Trains Between Stations" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.PNRMiddle"
+            android:label="PNR Details" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.TBSMiddle"
+            android:label="Trains Between Stations" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.StatusMiddle"
+            android:label="Train Status" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.Main4Activity"
+            android:label="Train Status" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.FareMiddle"
+            android:label="Fare Details" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.Main5Activity"
+            android:label="Fare Details" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.SeatMiddle"
+            android:label="Seat Availability" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.Main6Activity"
+            android:label="Seat Availability" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.Secondact"
+            android:label="Trainofy" >
+        </activity>
+        <activity
+            android:name="com.example.siddharthadmin.jsonproject.FirstFragment"
+            android:label="Trainofy" >
+        </activity>
+
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.siddharthadmin.jsonproject.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

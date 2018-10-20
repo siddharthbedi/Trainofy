@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Trainofy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="class_item">
+        <item>1A</item>
+        <item>2A</item>
+        <item>FC</item>
+        <item>3A</item>
+        <item>3E</item>
+        <item>CC</item>
+        <item>SL</item>
+        <item>2S</item>
+    </string-array>
+
+    <string-array name="quota_item">
+        <item>GN</item>
+        <item>LD</item>
+        <item>HO</item>
+        <item>DF</item>
+        <item>PH</item>
+        <item>FT</item>
+        <item>DP</item>
+        <item>CK</item>
+        <item>PT</item>
+        <item>SS</item>
+        <item>HP</item>
+        <item>RE</item>
+        <item>GNRS</item>
+        <item>OS</item>
+        <item>PQ</item>
+        <item>RC</item>
+        <item>RS</item>
+        <item>YU</item>
+        <item>LB</item>
+    </string-array>
+</resources>

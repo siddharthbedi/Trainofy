@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:text="Working under the aegis of Ministry of Railways, Indian Railway Catering and Tourism Corporation Ltd. (IRCTC) has been a pioneer of internet-based Rail ticketing for India. With its tagline “Lifeline of the Nation”, IRCTC has revolutionised the ticketing experience of the nation through it’s extremely economical, user friendly and efficient web interface. With its highly secure payment gateways, IRCTC provides reliable, hassle free and convenient ticketing, catering and tourism services to worldwide travellers" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="Book Tickets" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/rlogo" />
+</RelativeLayout>

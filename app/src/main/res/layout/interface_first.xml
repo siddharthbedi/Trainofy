@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:background="@drawable/bkg1"
+    tools:context=".FirstInterface"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="138dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </FrameLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:layout_height="match_parent"
+         android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24">
+
+        <Button
+            android:id="@+id/pnr"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/helo"
+            android:text="PNR Enquiry"
+            android:textColor="#000000"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/route"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="2dp"
+            android:text="Train Route"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:background="@drawable/helow"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/LL1"
+        android:id="@+id/LL2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24">
+
+        <Button
+            android:id="@+id/tbs"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="2dp"
+            android:text="Train Between Stations"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:background="@drawable/helow"
+            />
+
+        <Button
+            android:id="@+id/status"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/seat"
+            android:layout_marginTop="2dp"
+            android:text="Live Status of Train"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:background="@drawable/helo"/>
+    </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/LL3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/LL2"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:layout_weight="0.32">
+
+             <Button
+                 android:id="@+id/fare"
+                 android:layout_width="180dp"
+                 android:layout_height="160dp"
+                 android:layout_marginTop="2dp"
+                 android:text="fare Enquiry"
+                 android:textColor="#000000"
+                 android:textSize="25dp"
+                 android:background="@drawable/helo"/>
+
+             <Button
+                 android:id="@+id/seat"
+                 android:layout_width="180dp"
+                 android:layout_height="160dp"
+                 android:layout_marginTop="2dp"
+                 android:background="@drawable/helow"
+                 android:contextClickable="false"
+                 android:filterTouchesWhenObscured="true"
+                 android:text="seat availability"
+                 android:textColor="#000000"
+                 android:textSize="25dp"
+                 android:visibility="visible" />
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+</RelativeLayout>

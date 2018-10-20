@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mid"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/train_seat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Train Number"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_state"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/src_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Source Station Code"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_state"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/train_seat"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/dest_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Destination station code"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_state"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/src_code"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_state"
+        android:ems="10"
+        android:hint="Date ( DD-MM-YYYY )"
+        android:paddingLeft="20dp"
+        android:inputType="date"
+        android:textColorHint="#000000"
+        android:layout_below="@+id/dest_code"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/class_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Class Code"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_state"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/quota_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Quota code"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_state"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:layout_above="@+id/class_code"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
+
+    <Button
+        android:id="@+id/button_seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_state"
+        android:text="next"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/codes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="124dp"
+        android:layout_marginStart="37dp"
+        android:background="@drawable/button_state"
+        android:text="Button" />
+
+</RelativeLayout>

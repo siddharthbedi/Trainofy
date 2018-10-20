@@ -1,0 +1,4 @@
+#Thu Jul 19 09:39:04 IST 2018
+base.0=C\:\\ANdroid files IMP\\android traii\\JsonProject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

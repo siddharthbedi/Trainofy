@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/latemin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/has_arrived"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/has_departed"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/actarr"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/actdep"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:text="TextView" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/actarr_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#d3d3d3"
+        android:text="TextView" />
+
+
+
+</LinearLayout>
